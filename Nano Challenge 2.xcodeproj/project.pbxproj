@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D964804D288D92DB00F40D23 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964804C288D92DB00F40D23 /* PrimaryButton.swift */; };
+		D9648050288DAABB00F40D23 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964804F288DAABB00F40D23 /* Extension.swift */; };
+		D9648052288DB29E00F40D23 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9648051288DB29E00F40D23 /* QuestionView.swift */; };
+		D9648056288E908D00F40D23 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9648055288E908D00F40D23 /* OptionButton.swift */; };
 		D99FDD9E288A8913006FE683 /* Nano_Challenge_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FDD9D288A8913006FE683 /* Nano_Challenge_2App.swift */; };
 		D99FDDA0288A8913006FE683 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FDD9F288A8913006FE683 /* ContentView.swift */; };
 		D99FDDA2288A8914006FE683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99FDDA1288A8914006FE683 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D964804C288D92DB00F40D23 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D964804F288DAABB00F40D23 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D9648051288DB29E00F40D23 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		D9648055288E908D00F40D23 /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
 		D99FDD9A288A8913006FE683 /* Nano Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99FDD9D288A8913006FE683 /* Nano_Challenge_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano_Challenge_2App.swift; sourceTree = "<group>"; };
 		D99FDD9F288A8913006FE683 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9648049288D8E7800F40D23 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D964804E288D96CA00F40D23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D99FDD9F288A8913006FE683 /* ContentView.swift */,
+				D9648051288DB29E00F40D23 /* QuestionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D99FDD91288A8913006FE683 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +76,13 @@
 			isa = PBXGroup;
 			children = (
 				D99FDD9D288A8913006FE683 /* Nano_Challenge_2App.swift */,
-				D99FDD9F288A8913006FE683 /* ContentView.swift */,
+				D964804E288D96CA00F40D23 /* Views */,
+				D9648049288D8E7800F40D23 /* Components */,
 				D99FDDA1288A8914006FE683 /* Assets.xcassets */,
+				D9648055288E908D00F40D23 /* OptionButton.swift */,
+				D964804C288D92DB00F40D23 /* PrimaryButton.swift */,
 				D99FDDA3288A8914006FE683 /* Preview Content */,
+				D964804F288DAABB00F40D23 /* Extension.swift */,
 			);
 			path = "Nano Challenge 2";
 			sourceTree = "<group>";
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9648052288DB29E00F40D23 /* QuestionView.swift in Sources */,
+				D964804D288D92DB00F40D23 /* PrimaryButton.swift in Sources */,
+				D9648056288E908D00F40D23 /* OptionButton.swift in Sources */,
 				D99FDDA0288A8913006FE683 /* ContentView.swift in Sources */,
 				D99FDD9E288A8913006FE683 /* Nano_Challenge_2App.swift in Sources */,
+				D9648050288DAABB00F40D23 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
