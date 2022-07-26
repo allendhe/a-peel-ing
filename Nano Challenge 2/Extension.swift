@@ -16,6 +16,6 @@ extension Text{
     func question() -> some View{
         self.font(.system(size: 36, weight: .medium, design: .rounded))
             .foregroundColor(Color.black)
-            .padding(.init(top: 10, leading: 80, bottom: 10, trailing: 80))
+            
     }
 }

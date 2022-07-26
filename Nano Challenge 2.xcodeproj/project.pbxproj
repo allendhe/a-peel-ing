@@ -14,6 +14,7 @@
 		D9648059288FF54900F40D23 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D9648058288FF54900F40D23 /* Lottie */; };
 		D964805B288FF96E00F40D23 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964805A288FF96E00F40D23 /* LottieView.swift */; };
 		D964805D289012E400F40D23 /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = D964805C289012E400F40D23 /* like.json */; };
+		D964805F2890426D00F40D23 /* apeeling.json in Resources */ = {isa = PBXBuildFile; fileRef = D964805E2890426D00F40D23 /* apeeling.json */; };
 		D99FDD9E288A8913006FE683 /* Nano_Challenge_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FDD9D288A8913006FE683 /* Nano_Challenge_2App.swift */; };
 		D99FDDA0288A8913006FE683 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FDD9F288A8913006FE683 /* ContentView.swift */; };
 		D99FDDA2288A8914006FE683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99FDDA1288A8914006FE683 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		D9648055288E908D00F40D23 /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
 		D964805A288FF96E00F40D23 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		D964805C289012E400F40D23 /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
+		D964805E2890426D00F40D23 /* apeeling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apeeling.json; sourceTree = "<group>"; };
 		D99FDD9A288A8913006FE683 /* Nano Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99FDD9D288A8913006FE683 /* Nano_Challenge_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano_Challenge_2App.swift; sourceTree = "<group>"; };
 		D99FDD9F288A8913006FE683 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				D99FDDA1288A8914006FE683 /* Assets.xcassets */,
+				D964805C289012E400F40D23 /* like.json */,
+				D964805E2890426D00F40D23 /* apeeling.json */,
 				D9648055288E908D00F40D23 /* OptionButton.swift */,
 				D964804C288D92DB00F40D23 /* PrimaryButton.swift */,
 			);
@@ -62,7 +66,6 @@
 				D99FDD9F288A8913006FE683 /* ContentView.swift */,
 				D9648051288DB29E00F40D23 /* QuestionView.swift */,
 				D964805A288FF96E00F40D23 /* LottieView.swift */,
-				D964805C289012E400F40D23 /* like.json */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				D99FDDA5288A8914006FE683 /* Preview Assets.xcassets in Resources */,
 				D99FDDA2288A8914006FE683 /* Assets.xcassets in Resources */,
+				D964805F2890426D00F40D23 /* apeeling.json in Resources */,
 				D964805D289012E400F40D23 /* like.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
