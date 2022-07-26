@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct QuestionView: View {
+    
+//    @State private var orientation
+//    = UIDeviceOrientation.unknown
+    
     var body: some View {
-        VStack(spacing:40){
+        VStack(spacing:50){
             HStack{
                 Text("Let people view and navigate a data hierarchy using a series of vertical columns.")
                     .question()
@@ -22,6 +26,7 @@ struct QuestionView: View {
                 OptionButton(text: "Column View")
                     .padding()
             }
+           
             
     }
         .padding()
@@ -33,7 +38,7 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView()
-            .previewInterfaceOrientation(.landscapeRight)
+            .previewInterfaceOrientation(.portraitUpsideDown)
             
     }
 }
