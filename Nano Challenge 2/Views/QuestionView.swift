@@ -17,8 +17,10 @@ struct QuestionView: View {
             HStack{
                 Text("Let people view and navigate a data hierarchy using a series of vertical columns.")
                     .question()
+        
             }
             Image("columnView")
+                .padding(.bottom,40)
             
             HStack{
                 OptionButton(text: "Column View")
@@ -38,7 +40,7 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView()
-            .previewInterfaceOrientation(.portraitUpsideDown)
+            .previewInterfaceOrientation(.portrait)
             
     }
 }

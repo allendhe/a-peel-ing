@@ -12,13 +12,15 @@ struct ContentView: View {
 
         VStack(spacing: 10){
             VStack(spacing: 5){
-                Text("HYUMAN")
+                Text("a-peel-ing")
                     .font(.system(size: 64, weight: .black, design: .rounded))
                     .foregroundColor(/*@START_MENU_TOKEN@*/Color("AccentColor")/*@END_MENU_TOKEN@*/)
                     .padding(.init(top: 420, leading: 0, bottom: 0, trailing: 0))
                 
                 Text("Ready to test your HIG knowledge?")
                 .questionTitle()
+                
+                LottieView()
 
             }
     Spacer()
