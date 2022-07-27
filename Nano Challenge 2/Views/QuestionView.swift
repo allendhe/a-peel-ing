@@ -8,25 +8,29 @@
 import SwiftUI
 
 struct QuestionView: View {
-    
+  @State var QuestionIndex = 0
 //    @State private var orientation
 //    = UIDeviceOrientation.unknown
     
     var body: some View {
         VStack(spacing:50){
             HStack{
-                Text("Let people view and navigate a data hierarchy using a series of vertical columns.")
+                Text(QuestionData.shared[QuestionIndex].QuestionString)
                     .question()
         
             }
-            Image("columnView")
+            Image(QuestionData.shared[QuestionIndex].QuestionImage)
                 .padding(.bottom,40)
             
             HStack{
-                OptionButton(text: "Column View")
-                    .padding()
-                OptionButton(text: "Column View")
-                    .padding()
+                OptionButton(text: QuestionData.shared[QuestionIndex].QuestionOption[0])
+                    .padding().onTapGesture {
+                        QuestionIndex = QuestionIndex + 1
+                    }
+                OptionButton(text: QuestionData.shared[QuestionIndex].QuestionOption[1])
+                    .padding().onTapGesture {
+                        QuestionIndex = QuestionIndex + 1
+                    }
             }
            
             
