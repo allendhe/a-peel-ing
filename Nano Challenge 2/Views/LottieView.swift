@@ -37,18 +37,4 @@ struct LottieView: UIViewRepresentable {
     func updateUIView(_ uiView: UIView, context: Context) {
         //do nothing
     }
-    
-
-    
-
-//    func makeUIView(context: Context) -> some AnimationView  {
-//        let lottieAnimationView = AnimationView(name: "like")
-//        lottieAnimationView.play()
-//        return lottieAnimationView
-//    }
-//
-//    func updateUIView(_ uiView: UIView, context: Context) {
-//
-//    }
-
 }
