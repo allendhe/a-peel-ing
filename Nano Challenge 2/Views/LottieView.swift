@@ -9,12 +9,15 @@ import SwiftUI
 import Lottie
 
 struct LottieView: UIViewRepresentable {
+    
+    typealias UIViewType = UIView
+    var fileName: String
+    
     func makeUIView(context: UIViewRepresentableContext <LottieView>) -> UIView {
         let view = UIView(frame: .zero)
         
         let animationView = AnimationView()
-        let animation = Animation.named("apeeling")
-        animationView.animation = animation
+        animationView.animation = Animation.named(fileName)
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop
         animationView.play()
@@ -35,7 +38,7 @@ struct LottieView: UIViewRepresentable {
         //do nothing
     }
     
-    typealias UIViewType = UIView
+
     
 
 //    func makeUIView(context: Context) -> some AnimationView  {

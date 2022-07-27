@@ -13,7 +13,7 @@ struct ContentView: View {
         VStack(spacing: 80){
             VStack(spacing: 5){
                 
-                LottieView()
+                LottieView(fileName: "apeeling")
                     .frame(width: 800, height: 400, alignment: .center)
     
                 Text("a-peel-ing")
