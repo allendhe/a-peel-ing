@@ -24,8 +24,6 @@ struct ContentView: View {
                 Text("Ready to test your HIG knowledge?")
                 .questionTitle()
                 .padding(.init(top: 0, leading: 80, bottom: 0, trailing: 80))
-                
-                    
             }
     
             PrimaryButton(text: "Let's play")

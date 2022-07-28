@@ -14,7 +14,7 @@ struct PrimaryButton: View {
     
     var body: some View {
         Text(text)
-            .bold()
+            .font(.system(size: 24, weight: .bold, design: .rounded))
             .foregroundColor(.white)
             .padding(.init(top: 25, leading: 80, bottom: 25, trailing: 80))
             .background(background)

@@ -17,6 +17,7 @@ struct OptionButton: View {
             .bold()
             .foregroundColor(Color(red: 0.262, green: 0.576, blue: 0.424))
             .padding(.init(top: 25, leading: 80, bottom: 25, trailing: 80))
+            .fixedSize()
             .background(background)
             .cornerRadius(20)
             .shadow(color: .gray, radius: 2, x: 0, y: 1)

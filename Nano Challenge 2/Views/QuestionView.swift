@@ -21,7 +21,7 @@ struct QuestionView: View {
     func buttonClick(){
         QuestionIndex = QuestionIndex + 1
         isAnswered.toggle()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             isAnswered.toggle()
                 }
     }
@@ -70,7 +70,7 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView()
-            .previewInterfaceOrientation(.landscapeLeft)
+            .previewInterfaceOrientation(.portrait)
             
     }
 }
