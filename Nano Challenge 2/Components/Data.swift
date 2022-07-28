@@ -26,9 +26,9 @@ struct QuestionData{
     
     Question(QuestionString: "Present data in one or more columns of rows.", QuestionImage: "listTable", QuestionOption: ["Column View", "List and Table"] , QuestionAnswer: "List and Table"),
 
-    Question(QuestionString: "Presents multiple mutually exclusive panes of content in the same area, and can be switch between", QuestionImage: "tabView", QuestionOption: ["List and Table", "Tab View"] , QuestionAnswer: "List and Table"),
+    Question(QuestionString: "Presents multiple mutually exclusive panes of content in the same area, and can be switch between", QuestionImage: "tabView", QuestionOption: ["List and Table", "Tab View"] , QuestionAnswer: "Tab View"),
     
-    Question(QuestionString: "Presents a range of tasks that people can perform in the current context.", QuestionImage: "activityView", QuestionOption: ["Share View", "Tab View"] , QuestionAnswer: "List and Table"),
+    Question(QuestionString: "Presents a range of tasks that people can perform in the current context.", QuestionImage: "activityView", QuestionOption: ["Share View", "Tab View"] , QuestionAnswer: "Share View"),
     
     Question(QuestionString: "It initiates an instantaneous action", QuestionImage: "button", QuestionOption: ["Tab", "Button"] , QuestionAnswer: "Button"),
     
@@ -38,7 +38,7 @@ struct QuestionData{
     
     Question(QuestionString: "Appears at the top of an app screen, enabling navigation through a hierarchy of content.", QuestionImage: "navigationBar", QuestionOption: ["Navigation Bar", "Tab Bar"] , QuestionAnswer: "Navigation Bar"),
     
-    Question(QuestionString: "Reveal and hide information and functionality related to specific controls or views.", QuestionImage: "disclosureControl", QuestionOption: ["Disclosure Control", "Segmented Control"] , QuestionAnswer: "Navigation Bar"),
+    Question(QuestionString: "Reveal and hide information and functionality related to specific controls or views.", QuestionImage: "disclosureControl", QuestionOption: ["Disclosure Control", "Segmented Control"] , QuestionAnswer: "Disclosure Control"),
     
     Question(QuestionString: "Appears at the top of an app screen, enabling navigation through a hierarchy of content.", QuestionImage: "searchField", QuestionOption: ["Search Field", "Text Field"] , QuestionAnswer: "Search Field"),
     
@@ -46,7 +46,7 @@ struct QuestionData{
     
     Question(QuestionString: "Use bar items to navigate between mutually exclusive panes of content in the same view.", QuestionImage: "tabBar", QuestionOption: ["Navigation Bar", "Tab Bar"] , QuestionAnswer: "Tab Bar"),
     
-    Question(QuestionString: "Gives people critical information they need right away.", QuestionImage: "alert", QuestionOption: ["Alert", "Action"] , QuestionAnswer: "Tab Bar"),
+    Question(QuestionString: "Gives people critical information they need right away.", QuestionImage: "alert", QuestionOption: ["Alert", "Action"] , QuestionAnswer: "Alert"),
     
     Question(QuestionString: "A modal view that presents choices related to an action people initiate.", QuestionImage: "actionSheet", QuestionOption: ["Action Sheet", "Share Sheet"] , QuestionAnswer: "Action Sheet"),
     

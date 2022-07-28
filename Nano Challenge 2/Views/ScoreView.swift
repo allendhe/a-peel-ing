@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ScoreView: View {
+    @State var score: Int
+    @Environment(\.presentationMode) var presentationMode
+
     var body: some View {
         
         VStack(spacing: 80){
@@ -20,7 +23,7 @@ struct ScoreView: View {
                 
                 ZStack {
                     VStack {
-                        Text("Your Score: 10/18")
+                        Text("Your Score: \(score)/18")
                         .questionTitle()
                         .padding(.init(top: 0, leading: 80, bottom: 0, trailing: 80))
                         
@@ -33,19 +36,16 @@ struct ScoreView: View {
                 }
             }
     
-            PrimaryButton(text: "Play Again")
+            PrimaryButton(text: "Play Again").onTapGesture {
+                self.presentationMode.wrappedValue.dismiss()
+            }
                 .padding(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
     }
-        
-        
-        
-        
-        
     }
 }
 
 struct ScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreView()
+        ScoreView(score: 5)
     }
 }
